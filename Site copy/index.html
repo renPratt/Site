@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="secret">
+        <!--can i put a lil hi/bye in here??-->
+    </div>
+    <nav>
+        <div class="logo">Casey "Ren" Pratt</div>
+        <div class="nav-items">
+            <a href="#home" class="active">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="home"></div>
+        <div id="typewriter1">
+            <h1><span class="auto-type1"></span></h1>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed(".auto-type1",{
+                    strings: ["Hi! I'm Casey, but friends call me Ren."],
+                    loop : false,
+                    showCursor : false,
+                    typeSpeed : 50,
+                    backSpeed : 50,
+                })
+            </script>
+        </div>
+        <div id="typewriter2">
+                <h1>I'm <span class="auto-type2"></span></h1>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed(".auto-type2",{
+                    strings: [" a Programmer", " Detail Oriented", " a Software Designer", " a Fast Learner", " Ren :)"],
+                    loop : true,
+                    showCursor : false,
+                    typeSpeed : 50,
+                    backSpeed : 50,
+                })
+            </script>
+        </div>
+    </div>
+        <div class="break">
+            <br>
+        </div>
+        <div id="projects"></div>
+        <div class="projects">
+                <h1 style="color: #900c3f">Personal Projects</h1>
+                <div id="projects"></div>
+                <div class="centered">
+                    <div id="left">
+                        <h2>
+                         TryHackMe Done
+                        </h2>
+                        <h4>
+                            I started doing CTFs because of a course that I took my senior year at DU. It was about white-hat hacking, and how 
+                            some companies actually would pay you to hack them-- if you did it the "right way." I really enjoyed this class, and 
+                            part of the final project involved proving that you had retained certain skills from the class. The best way to do that,
+                            he said, was to do a few CTFs. I have done a few, but have only done one through my personal account in TryHackMe during the course. Once the weather 
+                            gets cold again, I am sure I will end up doing more to pass the time. My username is renpratt on TryHackMe, if you want to check 
+                            out what I have done there. 
+                        </h4>
+                        <h2>
+                         Binary Calculator Done
+                        </h2>
+                        <h4>
+                            The <b>BinaryCalculator</b> class is a utility for performing basic arithmetic operations—addition, subtraction, multiplication, 
+                            and division—on binary numbers represented by the BitField class. The class uses bitwise operations to carry out these calculations, 
+                            which is efficient for binary arithmetic. It uses only binary logic to complete these equations, as an excersize in understanding how 
+                            binary numbers function. Here is a <a href="https://github.com/renPratt/BinaryCalculator" target="_blank"> GitHub page</a> for the code.
+                        </h4>
+                        <h2>
+                         Project 7, diabetes project
+                        </h2>
+                        <h4>
+                            project presentation and code
+                        </h4>
+                  </div>
+                  <div id="center">
+                        <h2>
+                         My Undergraduate Thesis Done
+                        <h2>
+                        <h4>
+                           Because I was in my school's honors program, I had to get a distinction in one of my majors. I ended up getting 
+                           a distinction in Criminology, but my thesis was a crossection of both of my majors, and one of the three professors
+                           on my advisory board was a Computer Science professor of mine. The paper is about how UX design of government sites
+                           makes it unnessesarily difficult to apply for benefits that you are eligible for if you are unhoused, as well as 
+                           about how blockchain could be used in the healthcare sector to help the unhoused. You can read my thesis 
+                           <a href="https://digitalcommons.du.edu/undergraduate_theses/38/" target=_blank>here</a>. You can also read about how I 
+                           decided to write this paper by checking out 
+                           <a href="https://science.du.edu/news/9-dus-coolest-undergrad-research-projects" target=_blank>this article</a>
+                           from my school which features an interview with me.
+                        </h4>
+                        <h2>
+                         AI Super Tic Tac Toe -vid needed
+                        </h2>
+                        <h4>
+                            This project was for a course I took about AI and machine learning when I was studying abroad in Greece. We ended up doing 
+                            a tournament in class where AIs played against eachother. I got second place, and an A in the course. It was really fun, 
+                            but we all had to build it in a time-crunch as part of the course, so it isn't the most clean work I have done. Still, I think
+                            it was a very fun and interesting course, and I enjoyed writing the code. Here it the <a href="https://github.com/renPratt/AISuperTicTacToe" target="_blank">
+                            GitHub page</a> for the code.
+                        </h4>
+                        <h2>
+                         This Site
+                        </h2>
+                        <h4>
+                            Just in case there is an interest, I included the github link to this site, so you could look at my code. 
+                            This was a personal project that I embarked on over the summer after my graduation. I realized that I was jumping
+                            into a pretty competative job market without many projects outside of classwork under my belt, and I thought that 
+                            this would be a good way to show that I have the ability to code outside of my university.
+                        </h4>
+                  </div>
+                  <div id="right">
+                        <h2>
+                         BeReal Project Done
+                        </h2>
+                        <h4>
+                            I was taking a course on Human Computer Interaction, and the final assignment was to find UX design flaws in a 
+                            popular website or app, and otherwise figure out how to modify a popular website or app in ways that would improve 
+                            it for users, and possibly make it more popular. I chose BeReal because I felt like it was an app that was extremely 
+                            popular at one point, but had been expiriencing a slow decline, so it was a fun challenge to pick BeReal and 
+                            try to figure out what changes could be made to increase consumers regular use of the app. This project involved 
+                            interviewing, creating flow models, WAAD, prototyping, and creating usage scenarios, among other things. You can take a 
+                            look for youself <a href="Pratt Final Part A.dox" target=blank>here</a>. 
+                        </h4>
+                        <h2>
+                         Project 6, robot
+                        </h2>
+                        <h2>
+                         Plant Growing Sim
+                        </h2>
+                        <h4>
+                            This is just a fun one that I did my freshman year at DU. I have it at the bottom because it is neither complex nor
+                            perfect, but I remember loving the process. We were given a lot of leeway to decide what we wanted the plant to do,
+                            which was new to me in the world of coding-- I was used to being told exactly what the goal looked like. It was one 
+                            of the first times I got to be creative with my code. It was a really fast project, which is part of why it is very simple,
+                            but I think it is nice to show where I started. 
+                        </h4>
+                  </div>
+                </div>
+        </div>
+        <div class="about">
+            <h1 style="color: #ff5733">About Me</h1>
+            <div class="centered">
+                <div id="left">
+                    <h2>
+                     What I Do
+                    </h2>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, ipsam eveniet porro earum facere distinctio quia necessitatibus magnam veniam illo velit doloremque et error eaque eius. Cupiditate dicta dignissimos possimus?
+                    </p>
+              </div>
+                <div id="center">
+                    <h2>
+                     Where I Have Been
+                    </h2>
+                    <br>
+                    <p>
+                        
+                    </p>
+              </div>
+             <div id="right">
+                    <h2>
+                     Why I Am An Asset
+                    </h2>
+                    <br>
+                    <p>
+                        I believe that I would be an asset to your team because I would be bringing a new perspective to the table. As a double major, 
+                        I .
+                    </p>
+             </div>
+            </div>
+        </div>
+        <div id="contact"></div>
+        <div class="contact">
+            <div id="left">
+                <h4>
+                <a href="PrattResumeWebsiteCS.pdf" target=_blank>
+                    My Computer Science Resume
+                </a>
+                <br>
+                <a href="PrattResumeWebsiteCrim.pdf" target=_blank>
+                    My Social Science Resume
+                </a>
+                </h4>
+            </div>
+            <div id="right">
+                <h4 style="color: white">you can reach me at <a href="mailto:casey.renee.pratt@gmail.com" target="_blank"> casey.renee.pratt@gmail.com </a> </h4>
+                <h4 style="color: white">or message me through <a href="https://www.linkedin.com/in/caseypratt/" target=_blank>
+                    LinkedIn
+                </a></h4>
+            </div>
+            <!-- fill out form?? center for real maybe-->
+        </div>
+    </div>
+    <section>
+    </section>
+</body>
+</html>

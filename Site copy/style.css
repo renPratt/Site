@@ -1,0 +1,184 @@
+
+*{
+  box-sizing: boarder-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+body {
+  background:#581845;
+  justify-content: center;
+}
+nav {
+  height: 80px;
+  background-image: url("scrn.png");
+  background-size: 109.8vw 100.8vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 0rem calc((100vw-1300px) /2);
+  overflow: auto;
+}
+
+nav a:hover {
+  background-color:#c70039;
+  color: white;
+}
+
+nav .icon {
+  display: none;
+}
+
+.logo {
+  color: #581845;
+  font-size: 1.75rem;
+  font-style: bold;
+  padding: 0 2rem;
+}
+
+nav a{
+  text-decoration: none;
+  color: #daf7a6;
+  padding: 0 1.5rem;
+}
+
+#home {
+  background-image: url("bckrnd.png");
+  width: 100vw;
+  height: 100vh; 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+} 
+.container #typewriter1 {
+  position: absolute;
+  background: #c70039;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffc300;
+  font-size: 1.5rem;
+  letter-spacing: .15em;
+  font-family: monospace;
+  overflow: auto; 
+  align-items: center;
+  justify-content: center;
+  /* Ensures the content is not revealed until the animation */
+/* The typing effect */
+}
+
+.container #typewriter2 {
+  position: absolute;
+  background: #900c3f;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff5733;
+  font-size: 1.5rem;
+  letter-spacing: .15em;
+  font-family: monospace;
+  overflow: auto;
+  align-items: center;
+  justify-content: center; /* Ensures the content is not revealed until the animation */
+/* The typing effect */
+}
+
+@keyframes fade-in {
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+.break {
+  height: 80px;
+  background-color: #daf7a6;
+}
+
+.projects{
+  background-color: #daf7a6;
+}
+
+.projects h1 {
+  font-size: 5rem;
+  top: 100%;
+  text-align: center;
+  transform: scaleY(1.1);
+}
+.projects a{
+  text-decoration: none;
+  color: #ff5733;
+}
+.projects a:hover {
+  background-color:#c70039;
+  color: white;
+}
+
+.about {
+  width: 100vw;
+  height: 100vh; 
+  background-size: 100% 100%;
+  background-image: url("aboutme.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about h1 {
+  font-size: 5rem;
+  top: 100%;
+  text-align: center;
+  transform: scaleY(1.1);
+}
+
+.centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+  margin-left: 50px; 
+  margin-right: 50px;
+}
+
+#left{
+  width: 33%
+}
+
+#right{
+  width: 33%
+}
+
+#center{
+  width: 33%
+}
+
+#center + #right{
+  margin-left: 40px;
+}
+#left + #center {
+  margin-left: 40px;
+}
+
+#left + #right {
+  margin-left: 40px;
+}
+
+.contact{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #581845;
+}
+.contact a{
+  text-decoration: none;
+  color: #daf7a6;
+}
+.contact a:hover {
+  background-color:#c70039;
+  color: white;
+}
+
